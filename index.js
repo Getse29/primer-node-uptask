@@ -6,6 +6,9 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
+// Usar archivos estaticos
+app.use(express.static('public'));
+
 // Habilitar pug
 app.set('view engine', 'pug');
 

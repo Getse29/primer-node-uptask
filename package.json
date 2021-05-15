@@ -1,0 +1,22 @@
+{
+  "name": "uptask",
+  "version": "1.0.0",
+  "description": "Proyecto UpTask con Node MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Getse29/primer-node-uptask.git"
+  },
+  "author": "Josue Getsemani Sandoval Villarreal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Getse29/primer-node-uptask/issues"
+  },
+  "homepage": "https://github.com/Getse29/primer-node-uptask#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

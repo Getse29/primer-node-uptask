@@ -38,5 +38,3 @@ exports.nuevoProyecto = (req, res) => {
       .catch(error => console.log('Error', error));
   }
 };
-
-/* asdasdasadsasdasdasddasd */

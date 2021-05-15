@@ -1,0 +1,11 @@
+extends header 
+block contenido
+  .contenido-principal
+    h1= nombrePagina
+
+    form.agregar-proyecto(action="/nuevo-proyecto" method="POST")
+      .campo 
+        label(for="nombre") Nombre Proyecto 
+        input(type="text" name="nombre" placeholder="Nombre Proyecto")#nombre 
+      .campo.enviar 
+        input(type="submit" value="Agregar").boton

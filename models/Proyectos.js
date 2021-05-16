@@ -26,3 +26,4 @@ const Proyectos = db.define(
 );
 
 module.exports = Proyectos;
+/* prueba */
